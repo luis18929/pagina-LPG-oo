@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="#f1f1f1">
+    <style>        
+  
+
+        * {box-sizing: border-box;}
+        
+        body { 
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .header {
+          overflow: hidden;
+          background-color: #f1f1f1;
+          padding: 20px 10px;
+        }
+        
+        .header a {
+          float: left;
+          color: black;
+          text-align: center;
+          padding: 12px;
+          text-decoration: none;
+          font-size: 18px; 
+          line-height: 25px;
+          border-radius: 4px;
+        }
+        
+        .header a.logo {
+          font-size: 25px;
+          font-weight: bold;
+        }
+        
+        .header a:hover {
+          background-color: #EBF5FB;
+          color: black;
+        }
+        
+        .header a.active {
+          background-color: dodgerblue;
+          color: white;
+        }
+        
+        .header-right {
+          float: right;
+        }
+        
+        @media screen and (max-width: 500px) {
+          .header a {
+            float: none;
+            display: block;
+            text-align: left;
+          }
+          
+          .header-right {
+            float: none;
+          }
+        }
+        </style>
+        
+        <body>
+        
+        <div class="header">
+         <img src="img/lpg.png" width="200">
+        <div class="header-right">
+            <a class="active" href="contacto.html">Contacto</a>
+            <a href="empresa.html">Acerca de nuestra Empresa</a>
+            <a class="active" href="redes.html">Redes Sociales</a>
+          </div>
+        </div>
+</head>
+
+        
+        
+
+<!------------------------------------botones---------------------------------------------------->
+<style>
+  body {margin:0;font-family:Arial}
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #1326a1;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .active {
+    background-color:#424d92;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #555;
+    color: white;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+      display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .topnav.responsive .dropdown {float: none;}
+    .topnav.responsive .dropdown-content {position: relative;}
+    .topnav.responsive .dropdown .dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+  </style>
+  </head>
+  <body>
+  
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Inicio</a>
+    <a href="servicios.html">Servicio</a>
+    <a href="papeleria.html">Papeleria</a>
+    <a href="catalogo.html">Catalogo</a>
+    <div class="dropdown">
+      <button class="dropbtn"> Tecnologia 
+      </button>
+      <div class="dropdown-content">
+        <b>Tecnologia</b>
+        <a href="impresora.html">Impresoras</a>
+        <a href="celulares.html">Celulares</a>
+        <a href="computadoras.html">Computadoras</a>
+        <a href="televisores.html">Televisores</a>
+        </div>
+        
+        
+      
+      </div> 
+      <style>
+          
+       .topnav a.split {
+  float: right;
+  background-color:dodgerblue;
+  color: white;
+  }
+  </style>
+  </head>
+  <body>
+  
+  <div class="topnav">
+  <a href="luis.html" class="split">Creador de la pagina</a>
+  </div>
+       </style>
+       
+       <body>
+      </style>
+      </div>
+  </div>
+  <!-- -------------------------------------menu----------------------------------------------------------- -->
+  <style>
+    div.scrollmenu {
+      background-color: #48688a;
+      overflow: auto;
+      white-space: nowrap;
+    }
+    
+    div.scrollmenu a {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px;
+      text-decoration: none;
+    }
+    
+    div.scrollmenu a:hover {
+      background-color: #777;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div class="scrollmenu">
+      <a href="papeleria.html">Inicio</a>
+      <a href="mochilas.html">mochilas</a>
+      <a href="lapiz.html">Lapiz y Lapiceros</a>
+      <a href="colores.html">Colores</a>
+      <a href="marcadores.html">marcadores</a>
+      <a href="cuadernos.html">cuadernos</a>  
+      <a href="variedades.html">Variedades </a>
+      
+    </div>
+
+    <center>
+        <br>
+        <hr>
+         <h1 > <font color=" #25c48">Lapiz y Lapiceros</font></h1>
+        <hr>
+        </center>
+
+        <!-- ----------------------------agregar a carrito------------------------------------------------------------------------------ -->
+        <style>
+           
+            body {
+             
+              padding: 20px;
+              font-family: Arial;
+            }
+            
+            /* Center website */
+            .main {
+              max-width: 1000px;
+              margin: auto;
+            }
+            
+            h1 {
+              font-size: 50px;
+              word-break: break-all;
+            }
+            
+            
+            
+            /* Add padding BETWEEN each column */
+            .row,
+            .row > .column {
+              padding: 8px;
+            }
+            
+            /* Create four equal columns that floats next to each other */
+            .column {
+              float: left;
+              width: 25%;
+            }
+            
+            /* Clear floats after rows */ 
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            
+            /* Content */
+            .content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+           
+           
+            </style>
+            <style>
+              .agregar-carrito {
+            background-color: #25c48a;
+            color: #e9e9e9;
+            padding: 10px 49px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            
+            }
+            /* ---------------- */
+            .agregar-carrito {
+            background-color:  #25c48a;
+            color: #fff;
+            padding: 10px 49px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            
+            }
+            
+            /* ------------- */
+            .agregar-carrito {
+            background-color:  #25c48a;
+            color: #fff;
+            padding: 10px 49px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            
+            }
+            /* --------------- */
+            .agregar-carrito {
+            background-color: #25c48a;
+            color: #fff;
+            padding: 10px 49px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            
+            }
+            
+            </style>
+            </head>
+            <body>
+            
+            <!-- MAIN (Center website) -->
+            <div class="main">
+
+            
+            
+            <!-- Portfolio Gallery Grid -->
+            <div class="row">
+              <div class="column">
+                <div class="content">
+                  
+                    <img src="img/lapiz2.webp" alt="Mountains" style="width:100%">
+                  <h3>Paper Mate EverStrong #2 Lápices con minas reforzadas resistentes a la rotura al escribir, paquete de 24</h3>
+                  <p>$ 10.00</p>
+                   <a href="https://www.amazon.com/-/es/EverStrong-L%C3%A1pices-reforzadas-resistentes-escribir/dp/B088SQMWJ8/ref=sr_1_2?crid=3P073N9EMIVV6&dib=eyJ2IjoiMSJ9.98b_VH9q1
+                   3cb7LYvb984lAONKNv0UPI5yTpLdodh85sb6Rih7c1E5Q4WQc__chpCziW6bPlbE8wMxsZbj0Wrwl50r9M-yLBvuqYI7m863h10cSKm89Ak9C9h3acW2uEcvBbBm0zVGs4dBrgY-VZ7ZDKc6jRCeecZgLf3Trl3jq0ZjA8
+                   zXSGMIBGugNRXMZwxs2cq5CkI3yCEb0l529woi1oNBg2w99UHMmJr3gW6ibky_pWWlc7MdxW0EczvlG47UcIgOKjIdURg_yxt
+                   sAQwjNDBNCUso83vJ5cnF0eZGeU.dJRjU63ebH3RYul90D3y--l99-P4ePE0fhZZJhnKa6w&dib_tag=se&keywords=lapiz+de+papel&qid=1713041216&sprefix=lapiz+de+pap%2Caps%2C138&sr=8-2"
+                    class="agregar-carrito"target="_blank">Agregar a carrito</a>
+            
+                </div>
+              </div>
+              <div class="column">
+                <div class="content">
+                <img src="img/lapiz1.webp" alt="Lights" style="width:100%">
+
+                  <h3>Paper Mate Lápices EverStrong #2, plomo reforzado y resistente a la rotura al escribir, 72 unidades </h3>
+                  <p>$13.23</p>
+                  <a href="https://www.amazon.com/-/es/EverStrong-reforzado-resistente-escribir-unidades/dp/B07YVXR594/ref=sr_1_3?crid=3P073N9EMIVV6&dib=e
+                  yJ2IjoiMSJ9.98b_VH9q13cb7LYvb984lAONKNv0UPI5yTpLdodh85sb6Rih7c1E5Q4WQc__chpCziW6bPlbE8wMxsZbj0Wrwl50r9M-yLBvuqYI7m863h10cSKm89Ak9C9h3acW2
+                  uEcvBbBm0zVGs4dBrgY-VZ7ZITBq6asUNugbG4L_GAcUQzLR_rVeFFkSpBKgTC4BnFps2cq5CkI3yCEb0l529woi1oNBg2w99UHMmJr3gW6ibnrnJ5LjnsnCMSLry3jNBXdM5KEU
+                  ZZZ5fE9KODC3CjbwdOSJAPrfsF3ua0jUHLydDw.6xjAyKQfZVvEL5ZTWDDOWxa3eGqQL1mM6kRRWZvuCA8&dib_tag=se&keywords=lapiz+de+papel&qid=1713061035&spr
+                  efix=lapiz+de+pap%2Caps%2C138&sr=8-3"
+                   class="agregar-carrito" target="_blank">Agregar a carrito</a>
+            
+                </div>
+              </div>
+              <div class="column">
+                <div class="content">
+                <img src="img/lapicero3.webp" alt="Nature" style="width:100%">
+                  <h3>Paper Mate Clearpoint - Lápices HB #2 (0.028 in), colores surtidos de barril, 10 unidades</h3>
+                <p>US$17.23</p>
+                <a href="https://www.amazon.com/-/es/Paper-Mate-Clearpoint-surtidos-unidades/dp/B09QXWMDZ8/ref=sr_1_4?crid=3P073N9EMIVV6&dib=eyJ2IjoiMSJ9.9
+                8b_VH9q13cb7LYvb984lAONKNv0UPI5yTpLdodh85sb6Rih7c1E5Q4WQc__chpCziW6bPlbE8wMxsZbj0Wrwl50r9M-yLBvuqYI7m863h10cSKm89Ak9C9h3acW2uEcvBbBm0zVGs4
+                dBrgY-VZ7ZITBq6asUNugbG4L_GAcUQzLR_rVeFFkSpBKgTC4BnFps2cq5CkI3yCEb0l529woi1oNBg2w99UHMmJr3gW6ibnrnJ5LjnsnCMSLry3jNBXdM5KEUZZZ5fE9KODC3Cjbw
+                dOSJAPrfsF3ua0jUHLydDw.6xjAyKQfZVvEL5ZTWDDOWxa3eGqQL1mM6kRRWZvuCA8&dib_tag=se&keywords=lapiz+de+papel&qid=1713061035&sprefix=lapiz+de+pap%2Caps%2C138&sr=8-4"
+                 class="agregar-carrito"target="_blank">Agregar a carrito</a>
+            
+                </div>
+              </div>
+              <div class="column">
+                <div class="content">
+                <img src="img/lapizcero4.webp" alt="Mountains" style="width:100%">
+                <br><br>
+                  <h3>Paper Mate 56047PP Clearpoint - Juego de portaminas, 0.7 mm</h3>
+                  <p>$ 5.00</p>
+                  <a href="https://www.amazon.com/-/es/Paper-Mate-56047PP-Clearpoint-portaminas/dp/B001T6QCJC/ref=sr_1_7?crid=3P073N9EMIVV6&dib=eyJ2IjoiMSJ
+                  9.98b_VH9q13cb7LYvb984lAONKNv0UPI5yTpLdodh85sb6Rih7c1E5Q4WQc__chpCziW6bPlbE8wMxsZbj0Wrwl50r9M-yLBvuqYI7m863h10cSKm89Ak9C9h3acW2uEcvBbBm0z
+                  VGs4dBrgY-VZ7ZITBq6asUNugbG4L_GAcUQzLR_rVeFFkSpBKgTC4BnFps2cq5CkI3yCEb0l529woi1oNBg2w99UHMmJr3gW6ibnrnJ5LjnsnCMSLry3jNBXdM5KEUZZZ5fE9KODC
+                  3CjbwdOSJAPrfsF3ua0jUHLydDw.6xjAyKQfZVvEL5ZTWDDOWxa3eGqQL1mM6kRRWZvuCA8&dib_tag=se&keywords=lapiz+de+papel&qid=1713061035&sprefix=lapiz+de+pap%2Caps%2C138&sr=8-7"
+                   class="agregar-carrito"target="_blank">Agregar a carrito</a>
+            
+                </div>
+              </div>
+            <!-- END GRID -->
+            </div>
+
+            
+</body>
+</html>
